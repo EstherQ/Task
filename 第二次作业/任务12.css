@@ -1,0 +1,57 @@
+.a{
+  text-align: left;margin:30px 0;
+   width: 350px;border-collapse: collapse;
+  }
+  p{
+    color: red;margin:0;
+  }
+  td{
+  height:25px;border: 2px solid white;
+ }
+th{
+ color: white;height:25px;
+  border: 2px solid white; background: black;
+ }
+
+ .odd{ background: #ccc;}
+
+
+ .into{
+  width:100px; margin-left:100px; transition:width .5s;
+ }
+ .into:focus{
+    width: 200px;
+ }
+.ty{
+  margin-top:20px;width:300px;
+height: 150px;overflow: hidden;
+position: relative;
+}
+.bed{
+  left: 0; width:900px;
+  height:150px;animation: ty linear 12s infinite;
+  position:absolute;
+}
+@keyframes ty{
+  0%{ left: 0; }
+  50%{ left: -300px; }
+  90%{ left: -600px; }
+  100%{ left: 0; }
+}
+.best{
+  display: inline-block;width:300px;
+  height:150px;position:absolute;
+}
+
+#b{
+  background:blue;
+  left: 0;
+}
+#c{
+  background:green;
+  left: 300px;
+}
+#d{
+  background:yellow;
+  left:600px;
+}

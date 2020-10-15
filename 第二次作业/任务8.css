@@ -1,18 +1,16 @@
 
-.a{
-    padding: 10px；
+.a{padding: 10px；}
+
+.b{
+    background: #eee;
+    border: 1px solid #999;
+    height: 40px;
 }
 [class*="col-"]{
     box-sizing: border-box;    
     padding: 10px;
     float: left;
 }
-.b{
-    background: #eee;
-    border: 1px solid #999;
-    height: 40px;
-}
-
 @media only screen and (min-width: 770px)
 {
     .col-sm-1{

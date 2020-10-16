@@ -1,0 +1,68 @@
+#a{
+justify-content:space-between;
+align-items:center;
+display:flex;
+margin:0px;
+padding:20px;
+}
+.Box{
+width:150px;
+border:1px solid #f00;
+margin:0px;
+padding:20px;
+}
+
+#one
+{height:120px;
+margin:0px;
+padding:20px;}
+#two
+{height:100px;
+margin:0px;
+padding:20px;}
+#three
+{height:40px;
+margin:0px;
+padding:20px;}
+#four
+{height:200px;border:1px solid #0f0;
+    margin:0px;
+    padding:20px;}
+
+@media screen and (max-width:641px)
+{
+.a{
+display:flex;
+flex-wrap:wrap;
+align-items:flex-start;
+margin:0px;
+padding:20px;
+}
+
+.Box{
+margin-bottom:20px;
+margin:0px;
+padding:20px;
+}
+#four{
+order:-1;
+}
+}
+
+@media screen and (min-width:640px)
+{
+.a{
+display:flex;
+flex-wrap:wrap;
+align-items:flex-start;
+margin:0px;
+padding:20px;
+}
+.Box{
+margin-bottom:20px;
+margin:0px;
+padding:20px;
+}
+#one{
+order:-1;
+}}
